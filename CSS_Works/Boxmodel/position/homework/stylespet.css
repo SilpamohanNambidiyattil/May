@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.row{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid white; */
+    margin-left: 25%;
+    position: relative;
+}

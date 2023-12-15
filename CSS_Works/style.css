@@ -1,0 +1,31 @@
+/*
+tagName|class|id{
+    property:value;property:value
+}
+
+#id{property:value}
+
+.className{property:value}
+
+
+*/
+
+body{background-color: black;}
+/* h1{color: white;text-decoration: underline;} */
+a{color: white;text-decoration: none;}
+/* #id_tag{color: brown;} */
+#id_offer{color: red;}
+
+.heading{
+    color: white;
+    text-decoration: underline;
+}
+.heading-success{
+    color: green;
+}
+
+.card{
+    background-color: aqua;
+    height: 30%;
+    width: 300px;
+}

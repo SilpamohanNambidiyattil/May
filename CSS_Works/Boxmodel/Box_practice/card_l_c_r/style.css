@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.selection{
+    width: 25%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.card1{
+    background-color: red;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.center-card{
+    background-color: yellow;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.card-right{
+    background-color: green;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 50px ;
+}

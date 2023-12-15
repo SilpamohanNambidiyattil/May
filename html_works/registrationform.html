@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_form</title>
+</head>
+<body>
+    <h1>Register Here!</h1>
+    <form method="" action="" enctype="">
+    <div>    
+        <label for="id_name">Name:</label>     <!-- label used for display an un edited text-->
+        <input type="text" placeholder="Enter your name" id="id_name"> <!-- input is used to input the text and placeholder is used to defaut -->
+    </div>
+    <div>
+        <label for="id_email">Email:</label>    <!-- for= is used to indicate the focus to the text bok-->
+        <input type="email" placeholder="Enter your  Email"  id="id_email">
+    </div>
+    <div>
+        <label for="id_phone">Phone:</label>
+        <input type="text" placeholder="Enter your phone number" id="id_phone">
+    </div>
+    <div>
+        <label for="id_password">Password:</label>
+        <input type="password" placeholder="Enter new password" id="id_password">
+    </div>
+    <div>
+        <label for="id_confirm">Confirm Password:</label>
+        <input type="text" placeholder="Enter your password" id="id_confirm">
+    </div>
+    <div>
+        <label for="id_dob">Date of Birth:</label>
+        <input type="date" id="id_dob">
+    </div>
+    <div>
+        <label for="">Gender:</label>
+        <input type="radio" id="id_male" name="Gender"><label for="id_male">Male</label>
+        <input type="radio" id="id_female" name="Gender"><label for="id_female">Female</label>
+    </div>
+    <div>
+        <label for="id_address">Address:</label>
+        <textarea name="Address" id="id_address" cols="30" rows="5"></textarea>
+    </div>
+    <div>
+        <label for="">Skills:</label>
+        <input type="checkbox"><label for="">Python</label>
+        <input type="checkbox"><label for="">Java</label>
+        <input type="checkbox"><label for="">javascript</label>
+    </div>
+    <div>
+        <input type="submit" value="register">
+        <button>Cancel</button>
+    </div>
+
+    </form>
+</body>
+</html>
